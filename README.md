@@ -4,4 +4,4 @@ Aprenda a utilizar a DerxAPI e implemente em seu projeto **em menos de 5 minutos
 
 ### Documentações da API
 
-- [Documentação (API versão `v1_test`)]()
+- [Documentação (API versão `v1_test`)](https://github.com/firlast/derxapi-docs/blob/main/docs/v1_test.md)
