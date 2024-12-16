@@ -5,7 +5,7 @@
 
 Veja aqui os templates disponíveis para uso na DerxAPI. Cada template possui um nome (inicialmente um número) que o identifica. Use esse nome para selecionar o template ao realizar um envio de código de confirmação via API.
 
-![](templates.png)
+![](../templates.png)
 
 - Template `001`: Requer o placeholder `company`
 - Template `002`: Requer o placeholder `company`
