@@ -96,7 +96,7 @@ req = requests.post(
 )
 ```
 
-Após isso, o codígo de confirmação é criado e enviado ao email do seu usuário. É necessário armazenar o `request_id` recebido do endpoint `service.derxapi.com/send-code` **para checar o código** inserido pelo usuário posteriormente.
+Após isso, o código de confirmação é criado e enviado ao email do seu usuário. É necessário armazenar o `request_id` recebido do endpoint `service.derxapi.com/send-code` **para checar o código** inserido pelo usuário posteriormente.
 
 ## Confirmando os códigos
 
