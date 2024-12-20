@@ -24,7 +24,7 @@ A DerxAPI possui atualmente 3 planos disponíveis para usuários, incluindo um p
   - Sem tradução de template
 - **Plano Inter**:
   - Envie até 10.000 códigos por mês
-  - Apenas um template HTML disponível
+  - Acesso a todos os templates disponíveis
   - Tradução de template em 3 idiomas (português, inglês e espanhol)
 
 ### Enviando códigos de confirmação
