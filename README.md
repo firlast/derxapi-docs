@@ -13,4 +13,7 @@ If you encounter any issues with our service, please send us a message so we can
 
 ### List of API Documentation
 
-- [Documentation (API version 01 [12/20/2024])](https://github.com/firlast/derxapi-docs/blob/main/docs/v1_api.md)
+- Português:
+    - [Documentação (API versão 01 [12/20/2024])](https://github.com/firlast/derxapi-docs/blob/main/docs/v1_api_pt.md)
+- English:
+    - [Documentation (API version 01 [12/20/2024])](https://github.com/firlast/derxapi-docs/blob/main/docs/v1_api_en.md)
