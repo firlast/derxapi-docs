@@ -47,7 +47,7 @@ To send confirmation codes to your customers, use the `service.derxapi.com/send-
 - `email`: Your user's email
 - `template`: Email template information
   - `name`: Name of the template to be used (see [available templates](https://github.com/firlast/derxapi-docs/blob/main/docs/templates.md))
-  - `lang`: Template language (check if your plan supports language changes)
+  - `lang` (optional): Template language (check if your plan supports language changes)
   - `placeholder`: Object with data required by the chosen template (see placeholders in [available templates](https://github.com/firlast/derxapi-docs/blob/main/docs/templates.md))
 
 ```python3

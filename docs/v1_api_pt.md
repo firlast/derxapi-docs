@@ -47,7 +47,7 @@ Para enviar códigos de confirmação para seus clientes, utilize o endpoint `se
 - `email`: Email do seu usuário
 - `template`: Informações do template do email
   - `name`: Nome do template a ser utilizado (consulte os [templates disponíveis](https://github.com/firlast/derxapi-docs/blob/main/docs/templates.md))
-  - `lang`: Idioma do template (consulte se seu plano aceita a mudança de idioma)
+  - `lang` (opcional): Idioma do template (consulte se seu plano aceita a mudança de idioma)
   - `placeholder`: Objeto com dados requeridos pelo template escolhido (consulte os placeholders nos [templates disponíveis](https://github.com/firlast/derxapi-docs/blob/main/docs/templates.md))
 
 ```python3
