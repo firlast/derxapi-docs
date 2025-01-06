@@ -36,7 +36,8 @@ Para enviar códigos de confirmação para seus clientes, utilize o endpoint `se
   "email": "emaildousuario@domain.com",
   "template": {
     "name": "001",
-    "lang": "<en/es/pt-br>"
+    "lang": "<en/es/pt-br>",
+    "code_type": "only_numbers",
     "placeholder": {
       "company": "company_name"
     }
@@ -45,6 +46,7 @@ Para enviar códigos de confirmação para seus clientes, utilize o endpoint `se
 ```
 
 - `email`: Email do seu usuário
+- `code_type` (opcional): Formato do código enviado. Você pode escolher entre `letters_numbers` (letras e números), `only_letters` (apenas letras) e `only_numbers` (apenas números). Se o campo não for especificado, o valor padrão será `letters_numbers`
 - `template`: Informações do template do email
   - `name`: Nome do template a ser utilizado (consulte os [templates disponíveis](https://github.com/firlast/derxapi-docs/blob/main/docs/templates.md))
   - `lang` (opcional): Idioma do template (consulte se seu plano aceita a mudança de idioma)

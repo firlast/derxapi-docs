@@ -36,7 +36,7 @@ To send confirmation codes to your customers, use the `service.derxapi.com/send-
   "email": "usermail@domain.com",
   "template": {
     "name": "001",
-    "lang": "<en/es/pt-br>"
+    "lang": "<en/es/pt-br>",
     "placeholder": {
       "company": "company_name"
     }
@@ -45,6 +45,7 @@ To send confirmation codes to your customers, use the `service.derxapi.com/send-
 ```
 
 - `email`: Your user's email
+- `code_type` (optional): Format of the code sent. You can choose between `letters_numbers` (letters and numbers), `only_letters` (only letters) and `only_numbers` (only numbers). If the field is not specified, the default value is `letters_numbers`
 - `template`: Email template information
   - `name`: Name of the template to be used (see [available templates](https://github.com/firlast/derxapi-docs/blob/main/docs/templates.md))
   - `lang` (optional): Template language (check if your plan supports language changes)
