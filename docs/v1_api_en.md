@@ -18,14 +18,17 @@ DerxAPI currently has 3 plans available for users, including a free plan for tho
   - Send up to 150 codes per month
   - Only one HTML template available
   - No template translation
+  - Only `letters_numbers` code format available
 - **Basic Plan**:
   - Send up to 1,000 codes per month
   - Access to all available templates
   - No template translation
+  - All code formats availables
 - **Inter Plan**:
   - Send up to 10,000 codes per month
   - Access to all available templates
   - Template translation into 3 languages ​​(Portuguese, English and Spanish)
+  - All code formats availables
 
 ### Sending confirmation codes
 

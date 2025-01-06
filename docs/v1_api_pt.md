@@ -18,14 +18,17 @@ A DerxAPI possui atualmente 3 planos disponíveis para usuários, incluindo um p
   - Envie até 150 códigos por mês
   - Apenas um template HTML disponível
   - Sem tradução de template
+  - Apenas códigos no formato `letters_numbers`
 - **Plano Basic**:
   - Envie até 1.000 códigos por mês
   - Acesso a todos os templates disponíveis
   - Sem tradução de template
+  - Códigos em todos os formatos
 - **Plano Inter**:
   - Envie até 10.000 códigos por mês
   - Acesso a todos os templates disponíveis
   - Tradução de template em 3 idiomas (português, inglês e espanhol)
+  - Códigos em todos os formatos
 
 ### Enviando códigos de confirmação
 
