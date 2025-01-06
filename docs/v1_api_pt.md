@@ -52,7 +52,7 @@ Para enviar códigos de confirmação para seus clientes, utilize o endpoint `se
   - `lang` (opcional): Idioma do template (consulte se seu plano aceita a mudança de idioma)
   - `placeholder`: Objeto com dados requeridos pelo template escolhido (consulte os placeholders nos [templates disponíveis](https://github.com/firlast/derxapi-docs/blob/main/docs/templates.md))
 
-```python3
+```python
 import requests
 
 DERXAPI_TOKEN = '<seu_token_aqui>'
@@ -77,7 +77,7 @@ req.json()['request_id']
 
 Veja também um exemplo com a seleção de idioma do template com DerxAPI (verifique se seu plano aceita a mudança de idioma):
 
-```python3
+```python
 import requests
 
 DERXAPI_TOKEN = '<seu_token_aqui>'
@@ -107,7 +107,7 @@ Para confirmar códigos enviados aos seus clientes, utilize o endpoint `service.
 - `request_id`: ID da requisição (obtido ao criar o código em `/send-code`)
 - `code`: Código inserindo pelo seu usuário
 
-```python3
+```python
 import requests
 
 DERXAPI_TOKEN = '<seu_token_aqui>'

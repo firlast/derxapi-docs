@@ -51,7 +51,7 @@ To send confirmation codes to your customers, use the `service.derxapi.com/send-
   - `lang` (optional): Template language (check if your plan supports language changes)
   - `placeholder`: Object with data required by the chosen template (see placeholders in [available templates](https://github.com/firlast/derxapi-docs/blob/main/docs/templates.md))
 
-```python3
+```python
 import requests
 
 DERXAPI_TOKEN = '<your_token>'
@@ -76,7 +76,7 @@ req.json()['request_id']
 
 See also an example with the template language selection with DerxAPI (check if your plan accepts the language change):
 
-```python3
+```python
 import requests
 
 DERXAPI_TOKEN = '<your_token>'
@@ -106,7 +106,7 @@ To confirm codes sent to your customers, use the `service.derxapi.com/check-code
 - `request_id`: Request ID (obtained when creating the code in `/send-code`)
 - `code`: Code entered by your user
 
-```python3
+```python
 import requests
 
 DERXAPI_TOKEN = '<your_token>'
