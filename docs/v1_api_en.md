@@ -114,7 +114,7 @@ import requests
 
 DERXAPI_TOKEN = '<your_token>'
 
-req = requests.post(
+req = requests.get(
     url='https://service.derxapi.com/check-code',
     headers={'X-API-Token': DERXAPI_TOKEN},
     params={
